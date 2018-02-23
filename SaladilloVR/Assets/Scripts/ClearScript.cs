@@ -21,16 +21,6 @@ public class ClearScript : MonoBehaviour {
 
     #region Metodos
 
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     /// <summary>
     /// Metodo que se ejecuta cuando se pulsa en el boton
     /// </summary>

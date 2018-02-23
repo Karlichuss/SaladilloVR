@@ -18,4 +18,7 @@ public static class GameManager {
 
     // Constante con la URL de la WEb API que contiene una lista de clientes
     public const string WEB_API_GET_CLIENTS = "http://{0}/SaladilloVR/api/SaladilloVR/GetClients";
+
+    // Constante con la URL de la WEb API que guarda la informacion de un cliente
+    public const string WEB_API_LOG_CLIENT = "http://{0}/SaladilloVR/api/SaladilloVR/LogClient";
 }

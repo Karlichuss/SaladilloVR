@@ -17,11 +17,6 @@ public class ScrollDown : MonoBehaviour {
     void Start () {
         GetComponent<Animator>().Play("ScrollDown");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     #endregion
 

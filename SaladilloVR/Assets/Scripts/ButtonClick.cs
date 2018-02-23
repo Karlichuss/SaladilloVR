@@ -20,19 +20,9 @@ public class ButtonClick : MonoBehaviour {
 
     #region Metodos
 
-    // Use this for initialization
-    void Start () {
-        
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void Click()
     {
-        // Si el objeto estaa activo, se desactiva y viceversa
+        // Si el objeto esta activo, se desactiva y viceversa
         clickObject.SetActive(!clickObject.activeSelf);
     }
 

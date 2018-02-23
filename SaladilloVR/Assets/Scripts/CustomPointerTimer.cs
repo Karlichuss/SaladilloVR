@@ -86,6 +86,9 @@ public class CustomPointerTimer : MonoBehaviour
         timeToWait = time;
     }
 
+    /// <summary>
+    /// Detiene el temporizador, utilizando el tiempo indicado	como parametro
+    /// </summary>
     public void StopCounting()
     {
         counting = false;

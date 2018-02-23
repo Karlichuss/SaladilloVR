@@ -46,16 +46,11 @@ public class ConfigurationText : MonoBehaviour {
         StartCoroutine(CheckConnectivityWebAPI());
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
-
     IEnumerator CheckConnectivityWebAPI()
     {
         // Prepara la peticion a la web api
         using (UnityWebRequest www = UnityWebRequest.Get(
-            Uri.EscapeUriString(string.Format(GameManager.WEB_API_CHECK_CONECTIVITY, GameManager.IP_ADDRESS))))
+            Uri.EscapeUriString(string.Format(GameManager.WEB_API_CHECK_CONECTIVITY, GameManager.ipAddress))))
         {
             // Hace la peticion a la web api
             yield return www.SendWebRequest();

@@ -14,25 +14,19 @@ public class PlayAnimation : MonoBehaviour
 
     #region Declaracion de variables
 
+    // El tiempo que ha de pasar para que el temporizador se acabe
     public float activationTime = 3f;
-
+    // Controla que se esta mirando fijamente
     private bool isHover = false;
-
+    // Controla que la accion se haya ejecutado
     private bool executed = false;
-
+    // La referencia al jugador
     public GameObject player;
 
     #endregion
     
     #region Metodos
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -52,7 +46,6 @@ public class PlayAnimation : MonoBehaviour
             player.GetComponent<Animator>().Play("ScrollDown");
         }
     }
-
 
     /// <summary>
     /// Metodo que llamaremos desde el EventTrigger PointerEnter

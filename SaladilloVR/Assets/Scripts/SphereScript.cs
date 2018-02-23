@@ -26,11 +26,6 @@ public class SphereScript : MonoBehaviour {
     void Start () {
         GetComponent<Renderer>().material = sphereMaterial;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     /// <summary>
     /// Método que es llamado cuando se mira a la esfera
